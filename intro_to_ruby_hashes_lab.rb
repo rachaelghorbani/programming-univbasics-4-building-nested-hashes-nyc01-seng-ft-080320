@@ -56,6 +56,8 @@ def monopoly_with_fourth_tier
    monopoly[:railroads][:names][:pennsylvania_railroad] = {}
    monopoly[:railroads][:names][:b_and_o_railroad] = {}
    monopoly[:railroads][:names][:shortline_railroad] = {}
+   railroads = monopoly[:railroads][:names]
+  railroads[:reading_railroad][:mortgage_value] = 100
   monopoly
  
   # When you start writing the implementation for this method, copy the Hash
