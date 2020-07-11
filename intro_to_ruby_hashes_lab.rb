@@ -32,7 +32,7 @@ def monopoly_with_third_tier
    monopoly[:railroads][:names][:reading_railroad] = {}
    monopoly[:railroads][:names][:pennsylvania_railroad] = {}
    monopoly[:railroads][:names][:b_and_o_railroad] = {}
- 
+ [:shortline_railroad]
   monopoly
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
