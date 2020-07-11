@@ -25,7 +25,7 @@ def monopoly_with_third_tier
   monopoly[:railroads][:names] = {}
   
   monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
-
+  monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
   
   monopoly
   # When you start writing the implementation for this method, copy the Hash
