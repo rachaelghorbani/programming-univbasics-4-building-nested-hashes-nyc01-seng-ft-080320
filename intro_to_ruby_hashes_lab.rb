@@ -9,6 +9,7 @@ def monopoly_with_second_tier
   monopoly = {:railroads => {}}
   monopoly[:railroads][:pieces] = 4
   monopoly[:railroads][:rent_in_dollars] = {}
+  monopoly[:railroads][:names] = {}
   monopoly
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
